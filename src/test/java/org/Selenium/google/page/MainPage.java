@@ -10,13 +10,13 @@ public class MainPage {
     private WebDriver driver;
 
     @FindBy(id = "L2AGLb")
-    WebElement acceptCookieBtn;
+    private WebElement acceptCookieBtn;
 
     @FindBy(css = "svg[class=\"gb_0e\"]")
-    WebElement appsGoogleList;
+    private WebElement appsGoogleList;
 
     @FindBy(xpath = "//div/ul[1]/li[3]/a/div/span")
-    WebElement googleMapsApp;
+    private WebElement googleMapsApp;
     public MainPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);

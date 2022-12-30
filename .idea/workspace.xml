@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="39c89bfa-7969-45df-a14d-75d3c68a5891" name="Changes" comment="Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cucumber/Features/GoogleMapsSearchRoute.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cucumber/Features/GoogleMapsSearchRoute.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/Selenium/google/GooglePageObjectSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Selenium/google/GooglePageObjectSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Selenium/google/page/GoogleMapPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/Selenium/google/page/GoogleMapsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Selenium/google/page/GoogleMapsPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +49,26 @@
       <recent name="D:\Repository\Selenium\Selenium\src\test\resources\drivers" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cucumber Java.Feature: GoogleMapsSearchRoute">
+    <configuration name="All Features in: Features" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/Cucumber/Features" />
+      <option name="GLUE" value="org.Selenium.google" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Selenium" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: Features" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: GoogleMapsSearchRoute" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/Cucumber/Features/GoogleMapsSearchRoute.feature" />
@@ -71,9 +88,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Selenium.google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Selenium.google" />
+      <option name="MAIN_CLASS_NAME" value="org.Selenium.google.testRun" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Feature: GoogleMapsSearchRoute" />
+        <item itemvalue="Cucumber Java.All Features in: Features" />
+        <item itemvalue="JUnit.testRun" />
       </list>
     </recent_temporary>
   </component>
@@ -107,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672243536377</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit">
+      <created>1672433385990</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672433385990</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

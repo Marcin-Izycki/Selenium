@@ -9,7 +9,7 @@ public class ConsentGooglePage {
     private WebDriver driver;
 
     @FindBy(xpath = "//div[1]/form[2]/div/div/button/span")
-    WebElement acceptCookieBtn;
+    private WebElement acceptCookieBtn;
 
     public ConsentGooglePage(WebDriver driver){
         this.driver = driver;

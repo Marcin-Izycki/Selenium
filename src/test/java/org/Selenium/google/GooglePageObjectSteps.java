@@ -6,7 +6,6 @@ import io.cucumber.java.en.Then;
 import org.Selenium.google.page.ConsentGooglePage;
 import org.Selenium.google.page.GoogleMapsPage;
 import org.Selenium.google.page.MainPage;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -36,7 +35,7 @@ public class GooglePageObjectSteps {
         consentGooglePage.acceptCookieBtn();
     }
 
-    @Then("I find address (.+)")
+    @And("^I find address (.+)$")
     public void iFindAddress(String address) {
         GoogleMapsPage googleMapsPage = new GoogleMapsPage(driver);
         googleMapsPage.searchInput(address);
